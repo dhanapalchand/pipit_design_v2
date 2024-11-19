@@ -22,7 +22,7 @@ function Product() {
 
     }, [selecetCat])
     useEffect(() => {
-        fetch("https://mocki.io/v1/72f8d1e9-055c-4e6b-bd6a-630de0dad7f4").then((res) => {
+        fetch("https://fakestoreapi.com/products").then((res) => {
             return res.json()
 
         }).then((json) => {
