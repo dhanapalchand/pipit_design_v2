@@ -8,8 +8,7 @@ import { IoCartOutline } from "react-icons/io5";
 import { BsShop } from "react-icons/bs";
 function Header() {
     const cartitems = useSelector((state) => state.cart.items)
-    return (
-        
+    return (     
    <>
       <header style={{position:"sticky",top:"0",zIndex:"1000"}} >
         <nav className="navbar navbar-expand-lg navbar-light" style={{ backgroundColor:"#2874f0"}}  >

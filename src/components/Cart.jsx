@@ -81,7 +81,11 @@ function Cart(){
          <div> Total Amount: ₹{total}<br></br></div>
         <div>  Total Quantity : {totquantity}</div>
        
-        <div>  <button className="btn btn-danger mt-2">Continue to Payment !!</button></div>
+        <div>
+  <Link to="/payment">
+    <button className="btn btn-danger mt-2">Continue to Payment !!</button>
+  </Link>
+</div>
           
             </div>
 

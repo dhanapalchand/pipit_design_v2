@@ -9,6 +9,7 @@ import Product from './components/Product.jsx';
 import Header from './components/Header.jsx';
 import About from './components/About.jsx';
 import Cart from './components/Cart.jsx';
+import Payment from './components/Payment.jsx';
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
@@ -21,6 +22,8 @@ ReactDOM.createRoot(document.getElementById('root')).render(
             <Route path="About" element={<About />} />
             <Route path="Product" element={<Product />} />
             <Route path="Cart" element={<Cart />} />
+            <Route path="Payment" element={<Payment />} />
+            
           </Route>
         </Routes>
       </BrowserRouter>
