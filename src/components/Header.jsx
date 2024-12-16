@@ -24,12 +24,12 @@ function Header() {
               <li className="nav-item active" >
                 <Link to="/Product" className="nav-link" style={{color:"white",fontSize:"120%"}}>Product</Link>
               </li>
-              <li className="nav-item active">
+{/*               <li className="nav-item active">
                 <Link className="nav-link" to="/About" style={{color:"white",fontSize:"120%"}}>About</Link>
               </li>
               <li className="nav-item active">
                 <Link className="nav-link" style={{color:"white",fontSize:"120%"}}>Contact</Link>
-              </li>
+              </li> */}
               <li className="nav-item active">
   <Link className="nav-link" to="/Cart">
     {cartitems.length > 0 && (
@@ -42,7 +42,7 @@ function Header() {
   </Link>
 </li>
               <li className="nav-item active">
-                <Link className="nav-link" ><button className="btn" style={{background:"white",color:"#2874f0",fontWeight:"700"}}>Log Out</button></Link>
+                <Link className="nav-link" ><button className="btn" style={{background:"white",color:"#2874f0",fontWeight:"700"}}>Offline</button></Link>
               </li>
             </ul>
           </div>
